@@ -16,6 +16,7 @@
 		314C407B2BCE300000956DA8 /* TourMeApp_Final_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C407A2BCE300000956DA8 /* TourMeApp_Final_projectUITestsLaunchTests.swift */; };
 		314C408F2BCE384F00956DA8 /* LoginView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C408E2BCE384F00956DA8 /* LoginView .swift */; };
 		314C40912BCE3A6900956DA8 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C40902BCE3A6900956DA8 /* InputView.swift */; };
+		314C40932BCE53F500956DA8 /* SignupRagistrations .swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C40922BCE53F500956DA8 /* SignupRagistrations .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		314C407A2BCE300000956DA8 /* TourMeApp_Final_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourMeApp_Final_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		314C408E2BCE384F00956DA8 /* LoginView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView .swift"; sourceTree = "<group>"; };
 		314C40902BCE3A6900956DA8 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		314C40922BCE53F500956DA8 /* SignupRagistrations .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignupRagistrations .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				314C408E2BCE384F00956DA8 /* LoginView .swift */,
+				314C40922BCE53F500956DA8 /* SignupRagistrations .swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				314C40602BCE2FE400956DA8 /* ContentView.swift in Sources */,
 				314C40912BCE3A6900956DA8 /* InputView.swift in Sources */,
 				314C408F2BCE384F00956DA8 /* LoginView .swift in Sources */,
+				314C40932BCE53F500956DA8 /* SignupRagistrations .swift in Sources */,
 				314C405E2BCE2FE400956DA8 /* TourMeApp_Final_projectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 //  LoginView .swift
 //  TourMeApp-Final_project
 //
-//  Created by patron on 4/15/24.
+//  Created by Fahim Amiri on 4/15/24.
 //
 
 import SwiftUI
@@ -11,6 +11,7 @@ struct LoginView_: View {
     //need state binding
     @State private var email = ""
     @State private var password = ""
+    
     var body: some View {
         NavigationStack{
             VStack{
@@ -24,15 +25,14 @@ struct LoginView_: View {
                 //Text Inputs form feilds
                 //imported or call like  a function form Input view along with its properties.
                 VStack(spacing :24){
-                    InputView(text: $email, title:"Email Address ", placeholder: "name@exmple.com")
+                    InputView(text: $email, title:"Email Address ", placeholder: "name@exmple.com",isSecureField: false)
                         .padding(.horizontal, 25.0)
                         .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
                     
                     //passed form main view or inputview
                     InputView(text: $password,
                               title: "Password",
-                              placeholder: "your password",
-                              isSecureField: true)
+                              placeholder: "your password",isSecureField: true)
                     .padding(.horizontal, 25.0)
                     
                 }
@@ -76,6 +76,7 @@ struct LoginView_: View {
                 
                 NavigationLink{
                     //name of the page
+                    RegistrationView()
                     //terms and agreement
                 }label: {
                     HStack(spacing: 3){
