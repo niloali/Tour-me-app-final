@@ -77,6 +77,8 @@ struct LoginView_: View {
                 NavigationLink{
                     //name of the page
                     RegistrationView()
+                    //disable back button
+                        .navigationBarBackButtonHidden(true)
                     //terms and agreement
                 }label: {
                     HStack(spacing: 3){
@@ -88,6 +90,7 @@ struct LoginView_: View {
                     .font(.system(size: 14))
                     .foregroundColor(Color.gray)
                 }
+            
                
             }
         }
