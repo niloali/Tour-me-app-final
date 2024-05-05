@@ -17,6 +17,13 @@
 		314C408F2BCE384F00956DA8 /* LoginView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C408E2BCE384F00956DA8 /* LoginView .swift */; };
 		314C40912BCE3A6900956DA8 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C40902BCE3A6900956DA8 /* InputView.swift */; };
 		314C40932BCE53F500956DA8 /* SignupRagistrations .swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C40922BCE53F500956DA8 /* SignupRagistrations .swift */; };
+		339DBFEA2BE4A2FA00069B3E /* TourPackages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFE92BE4A2FA00069B3E /* TourPackages.swift */; };
+		339DBFEC2BE4A32000069B3E /* RecentTours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFEB2BE4A32000069B3E /* RecentTours.swift */; };
+		339DBFEE2BE4A33A00069B3E /* ScheduledTours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFED2BE4A33A00069B3E /* ScheduledTours.swift */; };
+		339DBFF02BE4A35800069B3E /* TourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFEF2BE4A35800069B3E /* TourCell.swift */; };
+		339DBFF22BE4A37200069B3E /* TourPackageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFF12BE4A37200069B3E /* TourPackageDetail.swift */; };
+		339DBFF52BE4A3B000069B3E /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFF42BE4A3B000069B3E /* CheckOutView.swift */; };
+		339DBFF82BE4A43F00069B3E /* ToursModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFF72BE4A43F00069B3E /* ToursModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,13 @@
 		314C408E2BCE384F00956DA8 /* LoginView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginView .swift"; sourceTree = "<group>"; };
 		314C40902BCE3A6900956DA8 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		314C40922BCE53F500956DA8 /* SignupRagistrations .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignupRagistrations .swift"; sourceTree = "<group>"; };
+		339DBFE92BE4A2FA00069B3E /* TourPackages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourPackages.swift; sourceTree = "<group>"; };
+		339DBFEB2BE4A32000069B3E /* RecentTours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTours.swift; sourceTree = "<group>"; };
+		339DBFED2BE4A33A00069B3E /* ScheduledTours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledTours.swift; sourceTree = "<group>"; };
+		339DBFEF2BE4A35800069B3E /* TourCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourCell.swift; sourceTree = "<group>"; };
+		339DBFF12BE4A37200069B3E /* TourPackageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourPackageDetail.swift; sourceTree = "<group>"; };
+		339DBFF42BE4A3B000069B3E /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
+		339DBFF72BE4A43F00069B3E /* ToursModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +117,8 @@
 				314C408A2BCE368100956DA8 /* App */,
 				314C40892BCE367C00956DA8 /* Components */,
 				314C40882BCE367800956DA8 /* Core-viewmodels */,
-				314C40872BCE365800956DA8 /* Model  */,
 				314C40612BCE2FFF00956DA8 /* Assets.xcassets */,
+				339DBFF62BE4A3DE00069B3E /* Model */,
 				314C40632BCE2FFF00956DA8 /* Preview Content */,
 			);
 			path = "TourMeApp-Final_project";
@@ -135,16 +149,11 @@
 			path = "TourMeApp-Final_projectUITests";
 			sourceTree = "<group>";
 		};
-		314C40872BCE365800956DA8 /* Model  */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Model ";
-			sourceTree = "<group>";
-		};
 		314C40882BCE367800956DA8 /* Core-viewmodels */ = {
 			isa = PBXGroup;
 			children = (
+				339DBFF32BE4A3A400069B3E /* CheckOutView */,
+				339DBFE82BE4A2BD00069B3E /* TourViews */,
 				314C408C2BCE372600956DA8 /* Authentication */,
 				314C408D2BCE373F00956DA8 /* Profile */,
 				314C408B2BCE370100956DA8 /* Root */,
@@ -190,6 +199,34 @@
 			children = (
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		339DBFE82BE4A2BD00069B3E /* TourViews */ = {
+			isa = PBXGroup;
+			children = (
+				339DBFE92BE4A2FA00069B3E /* TourPackages.swift */,
+				339DBFEB2BE4A32000069B3E /* RecentTours.swift */,
+				339DBFED2BE4A33A00069B3E /* ScheduledTours.swift */,
+				339DBFEF2BE4A35800069B3E /* TourCell.swift */,
+				339DBFF12BE4A37200069B3E /* TourPackageDetail.swift */,
+			);
+			path = TourViews;
+			sourceTree = "<group>";
+		};
+		339DBFF32BE4A3A400069B3E /* CheckOutView */ = {
+			isa = PBXGroup;
+			children = (
+				339DBFF42BE4A3B000069B3E /* CheckOutView.swift */,
+			);
+			path = CheckOutView;
+			sourceTree = "<group>";
+		};
+		339DBFF62BE4A3DE00069B3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				339DBFF72BE4A43F00069B3E /* ToursModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,10 +359,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339DBFF82BE4A43F00069B3E /* ToursModel.swift in Sources */,
+				339DBFEA2BE4A2FA00069B3E /* TourPackages.swift in Sources */,
+				339DBFF02BE4A35800069B3E /* TourCell.swift in Sources */,
 				314C40602BCE2FE400956DA8 /* ContentView.swift in Sources */,
+				339DBFEC2BE4A32000069B3E /* RecentTours.swift in Sources */,
+				339DBFF22BE4A37200069B3E /* TourPackageDetail.swift in Sources */,
+				339DBFEE2BE4A33A00069B3E /* ScheduledTours.swift in Sources */,
 				314C40912BCE3A6900956DA8 /* InputView.swift in Sources */,
 				314C408F2BCE384F00956DA8 /* LoginView .swift in Sources */,
 				314C40932BCE53F500956DA8 /* SignupRagistrations .swift in Sources */,
+				339DBFF52BE4A3B000069B3E /* CheckOutView.swift in Sources */,
 				314C405E2BCE2FE400956DA8 /* TourMeApp_Final_projectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
