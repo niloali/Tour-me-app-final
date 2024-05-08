@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31304C0B2BEB12EB0037269D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31304C0A2BEB12EB0037269D /* SwiftUIView.swift */; };
 		314C405E2BCE2FE400956DA8 /* TourMeApp_Final_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C405D2BCE2FE400956DA8 /* TourMeApp_Final_projectApp.swift */; };
 		314C40602BCE2FE400956DA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C405F2BCE2FE400956DA8 /* ContentView.swift */; };
 		314C40622BCE2FFF00956DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314C40612BCE2FFF00956DA8 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31304C0A2BEB12EB0037269D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		314C405A2BCE2FE400956DA8 /* TourMeApp-Final_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TourMeApp-Final_project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		314C405D2BCE2FE400956DA8 /* TourMeApp_Final_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourMeApp_Final_projectApp.swift; sourceTree = "<group>"; };
 		314C405F2BCE2FE400956DA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 		314C408D2BCE373F00956DA8 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				31304C0A2BEB12EB0037269D /* SwiftUIView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -359,6 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31304C0B2BEB12EB0037269D /* SwiftUIView.swift in Sources */,
 				339DBFF82BE4A43F00069B3E /* ToursModel.swift in Sources */,
 				339DBFEA2BE4A2FA00069B3E /* TourPackages.swift in Sources */,
 				339DBFF02BE4A35800069B3E /* TourCell.swift in Sources */,
