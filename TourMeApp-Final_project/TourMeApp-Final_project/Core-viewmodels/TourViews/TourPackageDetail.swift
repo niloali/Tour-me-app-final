@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TourPackageDetail: View {
     @State private var showCheckOut: Bool = false
+    @State private var showHome: Bool = false
     let tour: ToursModel
     
     var body: some View {
@@ -77,7 +78,7 @@ struct TourPackageDetail: View {
                             
                             // Add Package Button
                             Button("Add to List") {
-                               
+                                self.showHome.toggle()
                             }
                             .padding()
                             .foregroundColor(.white)
@@ -94,11 +95,11 @@ struct TourPackageDetail: View {
                     //.navigationBarHidden(true)
                     //.navigationBarBackButtonHidden(true)
             }
-//            .navigationDestination(isPresented: $showHome) {
-//                TourPackages()
+            .navigationDestination(isPresented: $showHome) {
+                TourPackages()
 //                    .navigationBarHidden(true)
 //                    .navigationBarBackButtonHidden(true)
-//            }
+            }
         }
     }
 }

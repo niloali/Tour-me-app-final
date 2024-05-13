@@ -24,8 +24,8 @@ struct TourPackages: View {
                         ForEach(packageToursData) { tour in
                             NavigationLink {
                                 TourPackageDetail(tour: tour) // Tour Package Detail Screen
-                                    //.navigationBarHidden(true)
-                                    //.navigationBarBackButtonHidden(true)
+//                                    .navigationBarHidden(true)
+//                                    .navigationBarBackButtonHidden(true)
                             } label: {
                                 TourCell(tour: tour) // each tour cell
                             }
