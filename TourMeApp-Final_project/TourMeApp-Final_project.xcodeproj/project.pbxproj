@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31304C0B2BEB12EB0037269D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31304C0A2BEB12EB0037269D /* SwiftUIView.swift */; };
+		31304C0D2BEE03F00037269D /* profileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31304C0C2BEE03F00037269D /* profileView.swift */; };
+		31304C152BF16C590037269D /* ScheduledTours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31304C142BF16C590037269D /* ScheduledTours.swift */; };
 		314C405E2BCE2FE400956DA8 /* TourMeApp_Final_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C405D2BCE2FE400956DA8 /* TourMeApp_Final_projectApp.swift */; };
 		314C40602BCE2FE400956DA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C405F2BCE2FE400956DA8 /* ContentView.swift */; };
 		314C40622BCE2FFF00956DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 314C40612BCE2FFF00956DA8 /* Assets.xcassets */; };
@@ -20,7 +21,6 @@
 		314C40932BCE53F500956DA8 /* SignupRagistrations .swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C40922BCE53F500956DA8 /* SignupRagistrations .swift */; };
 		339DBFEA2BE4A2FA00069B3E /* TourPackages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFE92BE4A2FA00069B3E /* TourPackages.swift */; };
 		339DBFEC2BE4A32000069B3E /* RecentTours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFEB2BE4A32000069B3E /* RecentTours.swift */; };
-		339DBFEE2BE4A33A00069B3E /* ScheduledTours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFED2BE4A33A00069B3E /* ScheduledTours.swift */; };
 		339DBFF02BE4A35800069B3E /* TourCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFEF2BE4A35800069B3E /* TourCell.swift */; };
 		339DBFF22BE4A37200069B3E /* TourPackageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFF12BE4A37200069B3E /* TourPackageDetail.swift */; };
 		339DBFF52BE4A3B000069B3E /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339DBFF42BE4A3B000069B3E /* CheckOutView.swift */; };
@@ -45,7 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		31304C0A2BEB12EB0037269D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		31304C0C2BEE03F00037269D /* profileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileView.swift; sourceTree = "<group>"; };
+		31304C142BF16C590037269D /* ScheduledTours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduledTours.swift; path = ../../../ScheduledTours.swift; sourceTree = "<group>"; };
 		314C405A2BCE2FE400956DA8 /* TourMeApp-Final_project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TourMeApp-Final_project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		314C405D2BCE2FE400956DA8 /* TourMeApp_Final_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourMeApp_Final_projectApp.swift; sourceTree = "<group>"; };
 		314C405F2BCE2FE400956DA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		314C40922BCE53F500956DA8 /* SignupRagistrations .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignupRagistrations .swift"; sourceTree = "<group>"; };
 		339DBFE92BE4A2FA00069B3E /* TourPackages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourPackages.swift; sourceTree = "<group>"; };
 		339DBFEB2BE4A32000069B3E /* RecentTours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTours.swift; sourceTree = "<group>"; };
-		339DBFED2BE4A33A00069B3E /* ScheduledTours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledTours.swift; sourceTree = "<group>"; };
 		339DBFEF2BE4A35800069B3E /* TourCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourCell.swift; sourceTree = "<group>"; };
 		339DBFF12BE4A37200069B3E /* TourPackageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourPackageDetail.swift; sourceTree = "<group>"; };
 		339DBFF42BE4A3B000069B3E /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 		314C408D2BCE373F00956DA8 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				31304C0A2BEB12EB0037269D /* SwiftUIView.swift */,
+				31304C0C2BEE03F00037269D /* profileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 			children = (
 				339DBFE92BE4A2FA00069B3E /* TourPackages.swift */,
 				339DBFEB2BE4A32000069B3E /* RecentTours.swift */,
-				339DBFED2BE4A33A00069B3E /* ScheduledTours.swift */,
+				31304C142BF16C590037269D /* ScheduledTours.swift */,
 				339DBFEF2BE4A35800069B3E /* TourCell.swift */,
 				339DBFF12BE4A37200069B3E /* TourPackageDetail.swift */,
 			);
@@ -362,14 +362,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31304C0B2BEB12EB0037269D /* SwiftUIView.swift in Sources */,
+				31304C0D2BEE03F00037269D /* profileView.swift in Sources */,
 				339DBFF82BE4A43F00069B3E /* ToursModel.swift in Sources */,
 				339DBFEA2BE4A2FA00069B3E /* TourPackages.swift in Sources */,
 				339DBFF02BE4A35800069B3E /* TourCell.swift in Sources */,
+				31304C152BF16C590037269D /* ScheduledTours.swift in Sources */,
 				314C40602BCE2FE400956DA8 /* ContentView.swift in Sources */,
 				339DBFEC2BE4A32000069B3E /* RecentTours.swift in Sources */,
 				339DBFF22BE4A37200069B3E /* TourPackageDetail.swift in Sources */,
-				339DBFEE2BE4A33A00069B3E /* ScheduledTours.swift in Sources */,
 				314C40912BCE3A6900956DA8 /* InputView.swift in Sources */,
 				314C408F2BCE384F00956DA8 /* LoginView .swift in Sources */,
 				314C40932BCE53F500956DA8 /* SignupRagistrations .swift in Sources */,
