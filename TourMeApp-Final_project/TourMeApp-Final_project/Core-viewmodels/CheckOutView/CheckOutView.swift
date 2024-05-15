@@ -82,27 +82,28 @@ struct CheckOutView: View {
                             }
                             PaymentTextField(text: $name, placeholder: "Name of Card Holder")
                         }
-                        
-                        // Pay Button
-                        Button("Pay") {
-                            showSch.toggle()
+                        NavigationLink(destination: ScheduledTours()) {
+                            // Pay Button
+                            Button("Pay") {
+                                showSch.toggle()
+                            }
+                            .frame(maxWidth: .infinity)
+                            .background(Color.orange)
+                            .padding()
+                            .foregroundColor(.white)
+                            .background(Color.orange)
+                            .cornerRadius(15)
+                            .disabled(cardNumber.isEmpty || cvv.isEmpty || name.isEmpty || dateAndYear.isEmpty)
                         }
-                        .frame(maxWidth: .infinity)
-                        .background(Color.orange)
-                        .padding()
-                        .foregroundColor(.white)
-                        .background(Color.orange)
-                        .cornerRadius(15)
-                        .disabled(cardNumber.isEmpty || cvv.isEmpty || name.isEmpty || dateAndYear.isEmpty)
+                        .padding(.horizontal, 20)
+                        Spacer()
                     }
-                    .padding(.horizontal, 20)
-                    Spacer()
                 }
-            }
-            .navigationDestination(isPresented: $showSch) {
-                ScheduledTours()
-                    //.navigationBarHidden(true)
-                    //.navigationBarBackButtonHidden(true)
+                //            .navigationDestination(isPresented: $showCheckOut) {
+                //                CheckOutView(tour: tour)
+                //                   .navigationBarHidden(true)
+                //                   .navigationBarBackButtonHidden(true)
+                //           }
             }
         }
     }

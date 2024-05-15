@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+
 struct ScheduledTours: View {
     @State private var showProfile: Bool = false
     @State private var showPackTours: Bool = false
@@ -59,7 +60,10 @@ struct ScheduledTours: View {
                         }
                         Spacer()
                     }
-                    .navigationDestination(isPresented: $showProfile) { // Navigation
+                    .navigationDestination(isPresented: $showProfile) { // Navigation destination to navigate on desired view
+                        ProfileView()
+                            .navigationBarHidden(true)
+                            .navigationBarBackButtonHidden(true)
                     }
                     .navigationDestination(isPresented: $showPackTours) {
                         TourPackages()
@@ -72,9 +76,3 @@ struct ScheduledTours: View {
         }
     }
 }
-
-   struct ScheduledTours_Previews: PreviewProvider {
-       static var previews: some View {
-           ScheduledTours()
-       }
-   }
